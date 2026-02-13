@@ -529,6 +529,59 @@ a:hover {
     color: var(--text-lighter);
 }
 
+/* ─── Photo Gallery ─── */
+.gallery {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    gap: 1rem;
+    padding: 0 1.5rem;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+}
+
+.gallery::-webkit-scrollbar {
+    display: none;
+}
+
+.gallery a {
+    scroll-snap-align: center;
+    flex-shrink: 0;
+    width: 80vw;
+    height: 60vw;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(74, 53, 54, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.gallery a.portrait {
+    width: 45vw;
+}
+
+.gallery a:hover {
+    box-shadow: 0 6px 28px rgba(196, 133, 139, 0.25);
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.gallery-hint {
+    text-align: center;
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-lighter);
+    margin-top: 1.5rem;
+}
+
 /* ─── Keyframes ─── */
 @keyframes fadeUp {
     from {
@@ -594,6 +647,18 @@ a:hover {
 
     .love-item:nth-last-child(-n+2) {
         border-bottom: none;
+    }
+
+    .gallery a {
+        width: 50vw;
+        height: 38vw;
+        max-width: 600px;
+        max-height: 450px;
+    }
+
+    .gallery a.portrait {
+        width: 28vw;
+        max-width: 340px;
     }
 
     .references-grid {
