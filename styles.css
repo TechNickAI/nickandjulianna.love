@@ -719,6 +719,11 @@ a:hover {
     }
 }
 
+@media (max-width: 480px) {
+    .nav-links { gap: 0.6rem; }
+    .nav-links a { font-size: 0.7rem; letter-spacing: 0.04em; }
+}
+
 @media (min-width: 1024px) {
     .hero-name {
         font-size: 6.5rem;
