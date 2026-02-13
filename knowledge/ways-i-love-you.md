@@ -15,7 +15,7 @@
 
 4. **The best cuddle of your life** — Full presence, safety, oxytocin flowing. The Christmas Burn set the standard and I intend to keep meeting it.
 
-5. **Grabbing you** — Physical claiming, confident touch. Making you feel wanted in the most primal way.
+5. **Grabbing you** — Physical claiming, confident touch. Making you feel wanted.
 
 6. **Not being a Tasmanian devil in bed** — Intentional, present, attuned. Not rushing. Not performing. Being *with* you.
 
@@ -31,13 +31,13 @@
 
 12. **Accepting your particular flavor of crazy** — The ultimate root is that you want to be around me all the time. I don't shame that. I work with it. It's not a bug, it's a feature.
 
-13. **Not pulling away after sex** — You've had men use you and disappear emotionally. I stay close. Consistent. Present. Every time.
+13. **Not pulling away after sex** — I stay close. Consistent. Present. Every single time.
 
 14. **Being reachable when it matters** — After our first rough night, I adjusted. Your calls bypass Do Not Disturb. You can always reach me.
 
 15. **Reframing your negative self-talk (gently)** — "Hold on — my subconscious doesn't understand negation. Are you up for a reframe?" And you rolled with it perfectly.
 
-16. **Making you feel safe with desire** — After what your ex-husband did, my safety isn't just nice — it's transformative. You can enjoy your body again because I'm not weaponizing it.
+16. **Making you feel safe with desire** — You can enjoy desire again because you know it's safe here.
 
 17. **Wearing what you ask** — When I told you I love when a woman wears one of my dress shirts, unbuttoned, barely covering her ass — you just did it. No hesitation. That's trust and play in the same breath.
 
@@ -49,7 +49,7 @@
 
 21. **Not drinking much** — You don't drink. Having me drink less makes you feel more aligned. That's an easy gift to give.
 
-22. **Wanting to guide you spiritually** — You've done MDMA, mushrooms, 5-MeO. But not ayahuasca. I see your potential for transformation and I want to hold space for it.
+22. **Wanting to guide you spiritually** — You've walked some deep paths already. But not ayahuasca. I see your potential for transformation and I want to hold space for it.
 
 23. **Seeing your radiance underneath the armor** — "Underneath those frozen pieces is a level of radiance and beauty that has yet to be touched within her." I hold that vision of who you're becoming.
 
@@ -60,3 +60,7 @@
 ---
 
 *This list never stops growing. Every conversation reveals new ways. Check back.* 💛
+
+---
+
+**Note:** The real power of this section is that it's a living, growing list — not a static 25. V1 missed a valuable opportunity to make that feel alive. Future versions should make the growth visible (new entries appearing, timestamps, a sense of "check back"). The number 25 is a snapshot, not a ceiling.

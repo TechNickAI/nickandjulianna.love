@@ -35,21 +35,12 @@
         animateNumber(heroCounter, days, 2000);
     }, 2200);
 
-    // Stats counter — triggered when scrolled into view
-    var statDays = document.getElementById('stat-days');
-    var statAnimated = false;
-
     // Scroll-triggered fade-in animations
     var scrollObserver = new IntersectionObserver(function (entries) {
         entries.forEach(function (entry) {
             if (entry.isIntersecting) {
                 entry.target.classList.add('visible');
                 scrollObserver.unobserve(entry.target);
-
-                if (!statAnimated && entry.target.contains(statDays)) {
-                    statAnimated = true;
-                    animateNumber(statDays, days, 1500);
-                }
             }
         });
     }, {

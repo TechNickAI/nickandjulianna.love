@@ -10,16 +10,16 @@ Anna and Clarity's album release party in Austin. She showed up in a Christmas r
 She said: "Every guy approaches me wanting to sleep with me, but at least you were honest about it."
 
 ## December ~15, 2025 — The Coffee Date
-She put her hand on his leg. That's when he knew she was interested. The spark was mutual.
+Loren Cafe. The pitch was AI and design. She put her hand on his leg. Then he proclaimed himself "objectively the best dinner date in Austin" — with nine written testimonials. She said yes to Friday.
 
-## December 30, 2025 — The Best Dinner Date in Austin
-He proclaimed himself "objectively the best dinner date in Austin" — with nine written testimonials. She said yes. Dinner at Launderette, coordinated by Åsa. Everything clicked.
+## December 19, 2025 — Christmas Burn
+A Burning Man-style event in Austin. They lit a tree on fire. They did legal MDMA together. She called it "the best cuddle of her life." This was the watershed — it set an intensity baseline so high that normal space now felt like distance. The beginning of understanding their attachment dynamic.
+
+## December 19, 2025 — The Best Dinner Date in Austin
+Dinner at Launderette, coordinated by Åsa. The dinner he'd invited her to at the coffee date. Everything clicked.
 
 ## Late December 2025 — New Orleans for New Year's
 Their first trip together. She got every woman in the bathroom to twerk with her. The relationship accelerated from feeling like "3 weeks" to "3 months." This was the moment they both knew.
-
-## January 2026 — Christmas Burn
-A Burning Man-style event in Austin. They lit a tree on fire. They did legal MDMA together. She called it "the best cuddle of her life." This was the watershed — it set an intensity baseline so high that normal space now felt like distance. The beginning of understanding their attachment dynamic.
 
 ## January 7, 2026 — The Surrender
 A major breakthrough in sexual intimacy. The first time she completely let go. A deepening of trust neither of them expected. Fucking incredible.
@@ -32,7 +32,7 @@ He told her he wanted to build something real. Living together. Partnership. A l
 
 When he asked for a commitment window — "Show me your messy while I'm most forgiving" — she answered: **"55 years."**
 
-## January 2026 — Love Burn (Miami)
+## February 5–8, 2026 — Love Burn (Miami)
 Their first time showing up as a couple publicly. The red and blue photo. The world seeing them together. She tagged him on social media. He let her claim him on her timeline.
 
 ## February 12, 2026 — Haven is Born
@@ -51,10 +51,8 @@ She bought tickets and booked an Airbnb before knowing he wanted to go with his 
 **August 2026 — Burning Man**
 The playa together. A new chapter.
 
-**Ayahuasca Ceremony**
-Full circle. Brigitte facilitating. Going deep together.
-
-**And everything else they haven't imagined yet.**
+**The rest they'll plan together.**
+That's half the fun.
 
 ---
 

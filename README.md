@@ -88,7 +88,7 @@ Key moments to include:
 
 - **"By the Numbers"** — Visual stats: 63 days together, 94% Spotify match, 9 testimonials, 55 years promised, 25 ways (and counting)
 - **"Before We Met" / Synchronicities** — The fate page: he told friends finding a partner was #1 priority three days before they met; she bought Envision tickets before knowing he wanted to go
-- **"Things Only We Know"** — Inside references presented beautifully (the romper, "55 years", "world's safest man", "peachy juicy booty goddess")
+- **"Things Only We Know"** — Inside references presented beautifully (the romper, "55 years", "world's safest man", "I think I found my person")
 - **Secret Time Capsules** — Entries that unlock on future dates (anniversary, her birthday)
 - **Letters to Each Other** — Private section for intentional notes
 - **Soundtrack** — Shared music tied to moments (94% Spotify overlap — electronica, house, Rufus Du Sol)
