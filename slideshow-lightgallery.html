@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Option 2: Elegant Lightbox — lightGallery</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>💛</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Karla:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.8.3/css/lightgallery-bundle.min.css">
+    <style>
+        :root {
+            --cream: #FFF5F5;
+            --cream-warm: #FCECED;
+            --gold: #C4858B;
+            --gold-light: #D4A5A9;
+            --gold-dark: #A06A6E;
+            --rose: #E0C4C7;
+            --text: #4A3536;
+            --text-light: #7A6162;
+            --font-serif: 'Libre Baskerville', Georgia, serif;
+            --font-sans: 'Karla', 'Segoe UI', sans-serif;
+        }
+
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: var(--font-sans);
+            color: var(--text);
+            background: var(--cream);
+            min-height: 100vh;
+        }
+
+        /* ─── Demo Nav ─── */
+        .demo-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            background: rgba(74, 53, 54, 0.9);
+            backdrop-filter: blur(10px);
+            padding: 0.6rem 1rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            font-size: 0.8rem;
+        }
+        .demo-nav span {
+            color: var(--gold-light);
+            font-family: var(--font-serif);
+            font-style: italic;
+            white-space: nowrap;
+        }
+        .demo-nav a {
+            color: rgba(255,255,255,0.6);
+            text-decoration: none;
+            padding: 0.3rem 0.7rem;
+            border-radius: 20px;
+            transition: all 0.2s;
+        }
+        .demo-nav a:hover { color: white; background: rgba(255,255,255,0.1); }
+        .demo-nav a.active { color: white; background: var(--gold); }
+
+        /* ─── Header ─── */
+        .header {
+            text-align: center;
+            padding: 5rem 1.5rem 2rem;
+        }
+        .header h1 {
+            font-family: var(--font-serif);
+            font-size: 2.2rem;
+            font-weight: 400;
+            margin-bottom: 0.5rem;
+        }
+        .header p {
+            color: var(--text-light);
+            font-size: 0.95rem;
+            max-width: 500px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        .header .tech {
+            display: inline-block;
+            margin-top: 1rem;
+            font-size: 0.75rem;
+            color: var(--gold);
+            background: var(--cream-warm);
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+        }
+
+        /* ─── Masonry-ish Grid ─── */
+        .photo-grid {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 1rem 4rem;
+            columns: 2;
+            column-gap: 0.8rem;
+        }
+
+        .photo-grid a {
+            display: block;
+            margin-bottom: 0.8rem;
+            break-inside: avoid;
+            border-radius: 8px;
+            overflow: hidden;
+            position: relative;
+            cursor: pointer;
+        }
+
+        .photo-grid a img {
+            width: 100%;
+            display: block;
+            transition: transform 0.6s cubic-bezier(0.25, 0, 0.15, 1), filter 0.4s;
+        }
+
+        .photo-grid a:hover img {
+            transform: scale(1.03);
+            filter: brightness(1.05);
+        }
+
+        /* Subtle overlay on hover */
+        .photo-grid a::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(74,53,54,0.2) 0%, transparent 40%);
+            opacity: 0;
+            transition: opacity 0.4s;
+            pointer-events: none;
+            border-radius: 8px;
+        }
+        .photo-grid a:hover::after {
+            opacity: 1;
+        }
+
+        /* Autoplay hint */
+        .hint {
+            text-align: center;
+            margin-top: 0.5rem;
+            margin-bottom: 2rem;
+            font-size: 0.85rem;
+            color: var(--gold);
+            font-style: italic;
+            font-family: var(--font-serif);
+        }
+
+        /* ─── lightGallery overrides ─── */
+        .lg-backdrop { background-color: rgba(74, 53, 54, 0.95); }
+        .lg-toolbar, .lg-actions .lg-next, .lg-actions .lg-prev {
+            color: var(--cream);
+        }
+        .lg-counter { color: var(--gold-light); font-family: var(--font-sans); }
+        .lg-progress-bar .lg-progress { background: var(--gold); }
+
+        @media (min-width: 768px) {
+            .header h1 { font-size: 2.8rem; }
+            .photo-grid {
+                columns: 3;
+                column-gap: 1rem;
+            }
+            .photo-grid a { margin-bottom: 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="demo-nav">
+        <span>Slideshow options:</span>
+        <a href="slideshow-swiper.html">1. Cinematic</a>
+        <a href="slideshow-lightgallery.html" class="active">2. Lightbox</a>
+        <a href="slideshow-gsap.html">3. Editorial</a>
+    </nav>
+
+    <div class="header">
+        <h1>Us</h1>
+        <p>Masonry grid entry. Tap any photo for a fullscreen lightbox with soft-zoom transitions and autoplay slideshow.</p>
+        <span class="tech">lightGallery + lg-autoplay + lg-zoom</span>
+    </div>
+
+    <div class="hint">tap any photo to start the slideshow</div>
+
+    <div class="photo-grid" id="gallery">
+        <a href="assets/photos/full/img_1063.jpg"><img src="assets/photos/thumb/img_1063.jpg" alt="" loading="lazy"></a>
+        <a href="assets/photos/full/img_5352.jpg"><img src="assets/photos/thumb/img_5352.jpg" alt="" loading="lazy"></a>
+        <a href="assets/photos/full/img_2707.jpg"><img src="assets/photos/thumb/img_2707.jpg" alt="" loading="lazy"></a>
+        <a href="assets/photos/full/img_5353.jpg"><img src="assets/photos/thumb/img_5353.jpg" alt="" loading="lazy"></a>
+        <a href="assets/photos/full/img_5249.jpg"><img src="assets/photos/thumb/img_5249.jpg" alt="" loading="lazy"></a>
+        <a href="assets/photos/full/img_5359.jpg"><img src="assets/photos/thumb/img_5359.jpg" alt="" loading="lazy"></a>
+        <a href="assets/photos/full/img_5385.jpg"><img src="assets/photos/thumb/img_5385.jpg" alt="" loading="lazy"></a>
+        <a href="assets/photos/full/img_5364.jpg"><img src="assets/photos/thumb/img_5364.jpg" alt="" loading="lazy"></a>
+        <a href="assets/photos/full/img_5389.jpg"><img src="assets/photos/thumb/img_5389.jpg" alt="" loading="lazy"></a>
+        <a href="assets/photos/full/img_5375.jpg"><img src="assets/photos/thumb/img_5375.jpg" alt="" loading="lazy"></a>
+        <a href="assets/photos/full/img_5390.jpg"><img src="assets/photos/thumb/img_5390.jpg" alt="" loading="lazy"></a>
+        <a href="assets/photos/full/img_5423.jpg"><img src="assets/photos/thumb/img_5423.jpg" alt="" loading="lazy"></a>
+        <a href="assets/photos/full/img_5412.jpg"><img src="assets/photos/thumb/img_5412.jpg" alt="" loading="lazy"></a>
+        <a href="assets/photos/full/img_5441.jpg"><img src="assets/photos/thumb/img_5441.jpg" alt="" loading="lazy"></a>
+        <a href="assets/photos/full/img_5442.jpg"><img src="assets/photos/thumb/img_5442.jpg" alt="" loading="lazy"></a>
+        <a href="assets/photos/full/img_5508.jpg"><img src="assets/photos/thumb/img_5508.jpg" alt="" loading="lazy"></a>
+        <a href="assets/photos/full/img_5512.jpg"><img src="assets/photos/thumb/img_5512.jpg" alt="" loading="lazy"></a>
+        <a href="assets/photos/full/img_5609.jpg"><img src="assets/photos/thumb/img_5609.jpg" alt="" loading="lazy"></a>
+        <a href="assets/photos/full/img_5592.jpg"><img src="assets/photos/thumb/img_5592.jpg" alt="" loading="lazy"></a>
+        <a href="assets/photos/full/img_5616.jpg"><img src="assets/photos/thumb/img_5616.jpg" alt="" loading="lazy"></a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.8.3/lightgallery.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.8.3/plugins/autoplay/lg-autoplay.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.8.3/plugins/zoom/lg-zoom.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.8.3/plugins/thumbnail/lg-thumbnail.umd.min.js"></script>
+    <script>
+        lightGallery(document.getElementById('gallery'), {
+            mode: 'lg-soft-zoom',
+            speed: 900,
+            plugins: [lgAutoplay, lgZoom, lgThumbnail],
+            autoplay: true,
+            slideDelay: 4500,
+            progressBar: true,
+            getCaptionFromTitleOrAlt: false,
+            download: false,
+            mobileSettings: {
+                controls: true,
+                showCloseIcon: true,
+            },
+            addClass: 'love-gallery',
+        });
+    </script>
+</body>
+</html>
