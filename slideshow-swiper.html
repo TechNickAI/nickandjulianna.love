@@ -186,6 +186,26 @@
             bottom: 16px !important;
         }
 
+        /* Navigation arrows */
+        .swiper-button-prev,
+        .swiper-button-next {
+            color: var(--cream);
+            background: rgba(74, 53, 54, 0.35);
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            transition: background 0.3s;
+        }
+        .swiper-button-prev:hover,
+        .swiper-button-next:hover {
+            background: rgba(74, 53, 54, 0.6);
+        }
+        .swiper-button-prev::after,
+        .swiper-button-next::after {
+            font-size: 18px;
+            font-weight: 700;
+        }
+
         /* Progress bar under slideshow */
         .progress-bar {
             width: 100%;
@@ -270,6 +290,8 @@
                     <div class="swiper-slide"><div class="slide-inner"><img src="assets/photos/full/img_5616.jpg" alt=""></div></div>
                 </div>
                 <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
             <div class="progress-bar"><div class="progress-fill" id="progress"></div></div>
             <div class="slide-counter"><span id="current">1</span> / <span id="total">20</span></div>
@@ -294,6 +316,11 @@
                 clickable: true
             },
             grabCursor: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            keyboard: { enabled: true },
         });
 
         const progress = document.getElementById('progress');
