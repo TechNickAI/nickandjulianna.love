@@ -533,27 +533,35 @@ a:hover {
 .slideshow-wrap {
     max-width: 900px;
     margin: 0 auto;
+    position: relative;
 }
 
 .photo-slideshow {
+    --swiper-navigation-color: var(--cream);
+    --swiper-navigation-size: 18px;
+    --swiper-pagination-color: var(--gold);
+    --swiper-pagination-bullet-inactive-color: var(--gold);
+    --swiper-pagination-bullet-inactive-opacity: 0.3;
+    --swiper-preloader-color: var(--gold-light);
+    width: 100%;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 20px 60px rgba(74, 53, 54, 0.12), 0 8px 20px rgba(74, 53, 54, 0.08);
 }
 
-.swiper-slide {
+.photo-slideshow .swiper-slide {
     overflow: hidden;
     background: var(--cream-warm);
 }
 
-.slide-inner {
+.photo-slideshow .slide-inner {
     position: relative;
     width: 100%;
     padding-bottom: 75%;
     overflow: hidden;
 }
 
-.slide-inner img {
+.photo-slideshow .slide-inner img {
     position: absolute;
     top: 0;
     left: 0;
@@ -564,16 +572,16 @@ a:hover {
 }
 
 /* Ken Burns — varied motion per slide */
-.swiper-slide-active .slide-inner img {
+.photo-slideshow .swiper-slide-active .slide-inner img {
     animation: kenburns-1 7s ease-in-out forwards;
 }
-.swiper-slide-active:nth-child(2n) .slide-inner img {
+.photo-slideshow .swiper-slide-active:nth-child(2n) .slide-inner img {
     animation-name: kenburns-2;
 }
-.swiper-slide-active:nth-child(3n) .slide-inner img {
+.photo-slideshow .swiper-slide-active:nth-child(3n) .slide-inner img {
     animation-name: kenburns-3;
 }
-.swiper-slide-active:nth-child(5n) .slide-inner img {
+.photo-slideshow .swiper-slide-active:nth-child(5n) .slide-inner img {
     animation-name: kenburns-4;
 }
 
@@ -595,26 +603,17 @@ a:hover {
 }
 
 /* Pagination dots */
-.photo-slideshow .swiper-pagination-bullet {
-    background: var(--gold);
-    opacity: 0.3;
-    width: 8px;
-    height: 8px;
-    transition: all 0.3s;
-}
-.photo-slideshow .swiper-pagination-bullet-active {
-    opacity: 1;
-    width: 24px;
-    border-radius: 4px;
-}
 .photo-slideshow .swiper-pagination {
     bottom: 16px !important;
+}
+.photo-slideshow .swiper-pagination-bullet-active {
+    width: 24px;
+    border-radius: 4px;
 }
 
 /* Navigation arrows */
 .photo-slideshow .swiper-button-prev,
 .photo-slideshow .swiper-button-next {
-    color: var(--cream);
     background: rgba(74, 53, 54, 0.35);
     width: 44px;
     height: 44px;
@@ -624,16 +623,6 @@ a:hover {
 .photo-slideshow .swiper-button-prev:hover,
 .photo-slideshow .swiper-button-next:hover {
     background: rgba(74, 53, 54, 0.6);
-}
-.photo-slideshow .swiper-button-prev::after,
-.photo-slideshow .swiper-button-next::after {
-    font-size: 18px;
-    font-weight: 700;
-}
-
-/* Lazy preloader spinner */
-.swiper-lazy-preloader {
-    --swiper-preloader-color: var(--gold-light);
 }
 
 /* Slide counter */
