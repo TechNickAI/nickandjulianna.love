@@ -32,6 +32,9 @@ He told her he wanted to build something real. Living together. Partnership. A l
 
 When he asked for a commitment window — "Show me your messy while I'm most forgiving" — she answered: **"55 years."**
 
+## February 3, 2026 — Silencing the Slow-Down Fairy
+Captain Carl's party. The voice in his head — the one that says *shouldn't you pump the brakes?* — made its case. He listened. Then he told it to sit down. A relationship coach said: "The most damaging thing we do for love is restrain it. No — just be. Just go all in." So he did. They did.
+
 ## February 5–8, 2026 — Love Burn (Miami)
 Their first time showing up as a couple publicly. The red and blue photo. The world seeing them together. She tagged him on social media. He let her claim him on her timeline.
 

@@ -5,7 +5,7 @@
 ---
 
 ## Core Concept
-A **living, self-updating monument** that starts as a Valentine's Day gift and evolves into the central artifact of their relationship — eventually becoming their wedding website.
+A **living, self-updating monument** that starts as a Valentine's Day gift and evolves into the central artifact of their relationship.
 
 Haven (the golden fox AI) maintains the site, updates content, adds new love list entries from conversations, and ensures the site grows as the relationship grows.
 
@@ -36,13 +36,9 @@ Haven (the golden fox AI) maintains the site, updates content, adds new love lis
 - Soundtrack page (shared Spotify data tied to moments)
 - Voice notes embedded in the timeline
 
-## V4 — Wedding
-- Wedding announcement (organic transition from love story site)
-- Their vows
-- Guest information
-- RSVP functionality
-- Registry
-- Day counter evolves: "X days loving you. Y days married."
+## V4 — Future (TBD)
+- Whatever the relationship calls for when the time comes
+- The site evolves organically as they do
 
 ## Design Principles
 - **Intimate, not tech-y** — love letter, not landing page

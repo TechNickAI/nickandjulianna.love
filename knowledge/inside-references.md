@@ -28,8 +28,8 @@ New Orleans, New Year's. She got every woman in the bathroom to twerk with her. 
 **94% Spotify blend**
 Not a metaphor. Literal musical compatibility. Electronica, house, Rufus Du Sol. They actually vibe on the same frequency.
 
-**"This is probably unhealthy"**
-They know they're obsessed with each other. They know it's a little much. It feels too good to stop. Why would they?
+**"The Slow-Down Fairy"**
+The voice that says *shouldn't you pump the brakes?* He heard it at Captain Carl's party (Feb 3). He told it to sit down. A relationship coach told him: "The most damaging thing we do for love is restrain it. No — just be. Just go all in." So he did.
 
 ---
 

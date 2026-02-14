@@ -43,7 +43,7 @@
 
 18. **Protecting you from my default mode** — I updated my operating system from "we make plans when we make plans" to "by default, we're together every night." Because I saw that mattered to you.
 
-19. **Celebrating your professional badassery** — You're the #1 realtor in Bouldin Creek. A boss babe who wants to be treated like a goddess, not kept. I see both.
+19. **Celebrating the full you** — Game designer, product manager, design manager, app designer — and then you became the #1 realtor in Bouldin Creek. You didn't fall into success. You reinvented yourself and dominated every version. I see every era of you.
 
 20. **Our music** — 94% Spotify blend. House, electronica, Rufus Du Sol. Dancing together at raves works because we actually like the same sounds.
 
@@ -56,6 +56,10 @@
 24. **Making space for goddess entrainment** — Bringing you around my goddess friends so you can learn through immersion, not instruction. Not telling you who to be. Just surrounding you with the energy.
 
 25. **Holding the vision** — Even when doubt monsters come, I'm committed. I see our future clearly and I'm not letting go.
+
+26. **Saying your name** — Julianna. Not babe, not baby, not hey you. *Julianna.* You've told me more than once how much you love hearing it. So I say it. Often. Because you deserve to be called by the name that's yours — specifically, intentionally, like I mean it every time.
+
+27. **Making sure you get all the right supplements** — Biohacking you with the full stack. Especially Vitamin N. Doctor's orders. Non-negotiable. Your wellness regimen has never been more... thorough.
 
 ---
 
